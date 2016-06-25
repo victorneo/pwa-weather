@@ -1,0 +1,11 @@
+{
+  "name": "weather-pwa",
+  "devDependencies": {
+    "jshint": "latest",
+    "browserify": "latest"
+  },
+  "scripts": {
+    "lint": "jshint scripts/**.js",
+    "build": "uglifyjs scripts/app.js -o dist/app.min.js"
+  }
+}
